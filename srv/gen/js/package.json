@@ -1,0 +1,1 @@
+{"name":"@js0/srv","version":"0.1.0","license":"MulanPSL-2.0","author":"jssite@googlegroups.com","type":"module","exports":{".":"./js0_srv/Api.js","./*":"./*"},"files":["*"],"dependencies":{"js0.site":"^0.1.3"}}
