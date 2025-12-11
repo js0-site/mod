@@ -1,0 +1,30 @@
+[package]
+name = "js0_srv"
+version = "0.1.0"
+edition = "2024"
+license = "MulanPSL-2.0"
+repository = "https://github.com/js0-site/rs.git"
+homepage = "https://github.com/js0-site/rs/tree/dev/js0_srv"
+description = "js0_srv"
+keywords = [ ]
+
+[package.metadata.docs.rs]
+all-features = true
+rustdoc-args = [ "--cfg", "docsrs" ]
+
+[features]
+default = [ ]
+
+[dependencies.js0_captcha]
+version = "0.1.1"
+path = "../captcha"
+
+[dev-dependencies]
+aok = "0.1.18"
+log = "0.4.28"
+log_init = "0.1.27"
+static_init = "1.0.4"
+
+[dev-dependencies.tokio]
+version = "1.48.0"
+features = [ "macros", "rt", "rt-multi-thread", "time", "sync" ]
