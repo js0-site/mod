@@ -1,0 +1,1 @@
+../../srv/gen/volo/adapter.rs
