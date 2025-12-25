@@ -17,6 +17,12 @@
 ./volo/run.sh
 ```
 
+## 测试
+
+```
+../js0-grpc/js0.site/test.sh
+```
+
 ## 更新 grpc
 
 ```
